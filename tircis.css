@@ -1,0 +1,282 @@
+body {
+        background : #a6b8cd;
+        margin-top: 0px;
+        color: #303030;
+        position: relative;
+        font: 12px Arial, Helvetica, sans-serif;
+		
+		//overflow:hidden ;
+}
+
+
+#top {
+	padding-left:3% ;
+	padding-right:3% ; 
+	min-width:880px ;
+	
+}
+#topsamp {
+	padding-left:3% ;
+	padding-right:3% ; 
+	min-width:1000px ;
+}
+div.mids {
+	width:100% ;
+	background-color:#01568B ;
+	//overflow:hidden ;
+}
+
+#header {
+	//background-color:#FF0000 ;
+	background-color:#01568B ;
+	
+	color:#FFFFFF ;
+	width:100%;
+	height:60px ;
+	text-align:center ;
+	
+	padding-top:15px ;
+	;
+}
+
+#header.personnel {
+	height: 100px ;
+	
+}
+#header.home {
+	height: 100px ;
+}
+
+.foot {
+	
+	
+	
+}
+.lzoom {
+	display:inline-block ;
+	min-width:100px ;
+	float:left ;
+	background-color:#F0FAFA ;
+	padding-left:8px ;
+	color:#000000 ;
+}
+.rzoom {
+	display:inline-block ;
+	width:975px;
+	float:right ;
+	padding=4px ;
+	background-color:#F0FAFA ;
+	
+	
+}
+a {
+	text-decoration: none ;
+	font : normal bold 14px Arial, Helvetica, sans-serif ;
+	color :#191919 ;
+}
+
+h2.bod {
+	//color:#404090 ;
+	color:#01568B ;
+	}
+	
+h3.bod {
+	//color:#404090 ;
+	color:#01568B ;
+}
+
+strong.bod {
+	//color:#404090 ;
+	color:#01568B ;
+	font-style:italic ;
+	font-size:1.2em ;
+}
+
+#footer {
+	clear:both ;
+	width:100% ;
+	height:110px ;
+	//display:block ;
+	//background-color:#01568B ;
+	background-color:#01568B ;
+	//background-color:#FF0000 ;
+	//background-color:#4372AA ;
+	overflow:hidden ;
+	
+}
+
+#lfoot {
+	float:left ;
+	width:50% ;
+	display:inline-block ;
+
+	
+	
+}
+#rfoot {
+	//float:left ;
+	width:47% ;
+	display:inline-block ;
+	text-align:left ;
+	padding-top:10px ;
+}
+
+#lmid {
+	width:135px;
+	height:100% ;
+	//display:inline-block ;
+	float:left ;
+	position:relative ;
+	left:0px ;
+}
+#rmid {
+	background-color:#F0FAFA ;
+	//background-color:#FF0000 ;
+	color:#000000 ;
+	
+	margin-left:140px ;
+	margin-right:2px ;
+	//display:inline-block ;
+	//float: left ;
+	padding: 30px ;
+	font-size:14px ;
+	min-height:500px ;
+}
+#midsamp {
+	background-color:#F0FAFA ;
+	color:#000000 ;
+	padding:12px ;
+}
+#botmid {
+
+	background-color:#a6b8cd ;
+	color:#000000 ;
+	clear:both ;
+	width:99% ;
+	padding:5px ;
+}
+.nav {
+	display:block ;
+	padding:10px ;
+	color:#216691 ;
+	background-color:#dce0e4 ;
+	box-shadow: 5px 3px 5px #888888;
+	border:2px solid #01568B ;
+	border-radius:4px ;
+	font-size:15px;
+	
+}
+.navcur {
+	display:block ;
+	padding:10px ;
+	//color:#000000 ;
+	color:#013651 ;
+	background-color:#a6b8cd ;
+	
+	border:2px solid #01568B ;
+	border-radius:4px ;
+	font-size:18px;
+}
+
+.zoomims {
+	display:block ;
+	margin-left:auto ;
+	margin-right:auto ;
+	}
+a.myfoot:link {
+		color:#FFFFFF ;
+        text-decoration: none;
+        font: normal bold 16px Arial, Helvetica, sans-serif;
+}
+
+a.myfoot:active {
+        color: #FFFFFF;
+        text-decoration: underline;
+        font: normal bold 16px Arial, Helvetica, sans-serif;
+}
+a.myfoot:hover {
+        color:#FFFFFF;
+        
+		text-decoration: underline;
+        font: normal bold 16px Arial, Helvetica, sans-serif;
+		
+}
+a.myfoot:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+        font: normal bold 16px Arial, Helvetica, sans-serif;
+}
+a.myfoot:visited:hover {
+        color:#FFFFFF;
+        
+		text-decoration: underline;
+        font: normal bold 16px Arial, Helvetica, sans-serif;
+		
+}
+
+a.navlink:link {
+		color: #000000;
+        text-decoration: none;
+        font: normal bold 10px Arial, Helvetica, sans-serif;
+}
+a.navlink:active {
+		color: #000000;
+        text-decoration: none;
+        font: normal bold 10px Arial, Helvetica, sans-serif;
+}
+a.navlink:visited {
+		color: #404090;
+        text-decoration: none;
+        font: normal bold 10px Arial, Helvetica, sans-serif;
+}
+a.navlink:hover {
+		color: #000000;
+        text-decoration: underline;
+        font: normal bold 10px Arial, Helvetica, sans-serif;
+}
+
+a.navcur:hover {
+	color:&000000 ;
+}
+
+
+
+a.bodlink:hover {
+		text-decoration: underline ;
+		color:#000000 ;
+}
+a.myhead:link{
+	color:#FFFFFF ;
+	text-decoration:none ;
+	
+}
+a.myhead:visited{
+	color:#FFFFFF;
+	text-decoration:none ;
+}
+a.myhead:hover{
+	color:#FFFFFF ;
+	text-decoration: underline ;
+	
+}
+
+
+
+
+li.foot {
+
+list-style-type: none;
+padding:0 ;
+margin-left:0 ;
+}
+sup { vertical-align: top; font-size: 0.6em;font-weight:bold  }
+sub { font-size: .4em;font-weight:bold; line-height:1  }
+p.fig {
+	text-indent: 0pt ;
+	margin:8px ;
+}
+p{
+	line-height:140%; 
+	text-indent:0pt ;
+	margin:8px ;
+	}
